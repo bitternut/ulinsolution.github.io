@@ -31,36 +31,7 @@
 	
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
-	
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
-
-      function drawChart() {
-
-        var data = google.visualization.arrayToDataTable([
-          ['Lokasi', 'Hours per days'],
-          ['Tempat Bersejarah',      7],
-          ['Wahana (Indoor)',      12],
-          ['Tempat Belanja (Mall)',  2],
-          ['Alam (Outdoor)', 77],
-          ['Caffe', 16], 
-          ['Swimming Pool', 5], 
-          ['Fasilitas Umum', 7], 
-        ]);
-
-        var options = {
-          title: 'Diagram Pembagian Tempat Wisata Kota Bandung'
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-        chart.draw(data, options);
-      }
-    </script>
 </head>
-	
 <body data-spy="scroll" data-target=".fixed-top">
     
     <!-- Preloader -->
@@ -103,9 +74,6 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#contact">CONTACT US</a>
                 </li>
-		<li class="nav-item">
-                    <a class="nav-link page-scroll" href="terms-conditons.html">VISUALISASI</a>
-                </li>
             </ul>
         </div>
     </nav> <!-- end of navbar -->
@@ -128,6 +96,420 @@
         </div> <!-- end of header-content -->
     </header> <!-- end of header -->
     <!-- end of header -->
+
+
+    <!-- Intro -->
+    <div id="intro" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="text-container">
+                        <div class="section-title">INTRO</div>
+                        <h2>We offer unexpected trips and unforgettable experiences</h2>
+                        <p class="testimonial-text">"Our mission at Quinque is to help the community through this difficult time (COVID-19) by relying on our team's expertise in initiating and introducing local attractions"</p>
+                        <div class="testimonial-author">M. Aziz Taufiqurrahman - Data Analyst</div>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/intro-office.png.jpg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of intro -->
+
+
+    <!-- Description -->
+    <div class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-binoculars fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">Eagle Eye</h4>
+                            <p>Mencari tempat - tempat baru yang menakjubkan!</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-list-alt fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">Real Data</h4>
+                            <p>Selalu update perkembangan lokasi tujuan.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-chart-pie fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">Heaven Services</h4>
+                            <p>Melayani client sepenuh hati dan terntunya dengan kualitas pelayanan nomor 1.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-1 -->
+    <!-- end of description -->
+    
+    <!-- Details 2 -->
+	<div class="tabs">
+        <div class="area-1">
+            <div class="tabs-container">
+                
+                <!-- Tabs Links -->
+                <ul class="nav nav-tabs" id="ariaTabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="fas fa-th"></i> Kategori Tempat Wisata di Bandung</a>
+                    </li>
+                </ul>
+                <!-- end of tabs links -->
+                
+                <!-- Tabs Content -->
+                <div class="tab-content" id="ariaTabsContent">
+
+                    <!-- Tab -->
+			<div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+                        <!-- Progress Bars -->
+                        <div class="progress-container">
+                            <div class="title">Wisata Alam 61.4%</div>
+                            <div class="progress">
+                                <div class="progress-bar first" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+			<div class="progress-container">
+                            <div class="title">Tempat Belanja (Mall) 2.7%</div>
+                            <div class="progress">
+                                <div class="progress-bar first" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+			<div class="progress-container">
+                            <div class="title">Cafe 1.3%</div>
+                            <div class="progress">
+                                <div class="progress-bar first" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="title">Tempat Bersejarah 33%</div>
+                            <div class="progress">
+                                <div class="progress-bar second" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="title">Wisata Air 5.6%</div>
+                            <div class="progress">
+                                <div class="progress-bar third" role="progressbar" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+			<div class="progress-container">
+                            <div class="title">Lainnya 0.8%</div>
+                            <div class="progress">
+                                <div class="progress-bar first" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div> <!-- end of progress-container -->
+                        <!-- end of progress bars -->
+                        
+                    </div> <!-- end of tab-pane --> 
+                    <!-- end of tab -->
+		    
+		</div> <!-- end of tab-content -->
+                <!-- end of tabs content -->
+
+            </div> <!-- end of tabs-container -->
+        </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2"></div> <!-- end of area-2 -->
+    </div> <!-- end of tabs -->
+    <!-- end of details 2 -->
+			
+    <!-- Projects -->
+	<div id="projects" class="filter">
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">Quinque - A5</div>
+                    <h2>Tempat Wisata Rekomendasi</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Filter -->
+			<div class="button-group filters-button-group">
+                        <a class="button is-checked" data-filter="*"><span>Show All</span></a>
+                        <a class="button" data-filter=".history"><span>Tempat Bersejarah</span></a> 
+                        <a class="button" data-filter=".market"><span>Tempat Belanja (Mall)</span></a>
+                        <a class="button" data-filter=".nature"><span>Alam</span></a>
+                        <a class="button" data-filter=".indoor"><span>Wahana Bermain</span></a> 
+                        <a class="button" data-filter=".kafe"><span>Cafe</span></a> 
+                        <a class="button" data-filter=".spool"><span>Swimming Pool</span></a>
+                        <a class="button" data-filter=".others"><span>Lainnya</span></a>
+                    </div> <!-- end of button group -->
+                    <div class="grid">
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Curug Cileunca</span></div><img src="images/project-1.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>Pangalengan</span></div><img src="images/project-2.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>Tangkuban Perahu</span></div><img src="images/project-3.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-4"><div class="element-item-overlay"><span>Green Kenyot Cikahuripan</span></div><img src="images/project-4.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item history">
+                            <a class="popup-with-move-anim" href="#project-5"><div class="element-item-overlay"><span>Gedung Sate</span></div><img src="images/project-5.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item history">
+                            <a class="popup-with-move-anim" href="#project-6"><div class="element-item-overlay"><span>Jalan Braga</span></div><img src="images/project-6.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item history">
+                            <a class="popup-with-move-anim" href="#project-7"><div class="element-item-overlay"><span>Museum Geologi</span></div><img src="images/project-7.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item history">
+                            <a class="popup-with-move-anim" href="#project-8"><div class="element-item-overlay"><span>Museum Konferensi Asia-Afrika</span></div><img src="images/project-8.jpeg" alt="alternative"></a>
+                        </div>
+                           <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-9"><div class="element-item-overlay"><span>De'Ranch Lembang</span></div><img src="images/project-9.jpeg" alt="alternative"></a>
+                        </div>
+                           <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-10"><div class="element-item-overlay"><span>Zone 73</span></div><img src="images/project-10.jpeg" alt="alternative"></a>
+                        </div>
+                           <div class="element-item spool">
+                            <a class="popup-with-move-anim" href="#project-11"><div class="element-item-overlay"><span>Pesona Nirwana Waterpark</span></div><img src="images/project-11.jpeg" alt="alternative"></a>
+                        </div>
+                           <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-12"><div class="element-item-overlay"><span>Trans Studio Bandung</span></div><img src="images/project-12.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item indoor">
+                            <a class="popup-with-move-anim" href="#project-13"><div class="element-item-overlay"><span>Floating Market</span></div><img src="images/project-13.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item indoor">
+                            <a class="popup-with-move-anim" href="#project-14"><div class="element-item-overlay"><span>Cihampelas Walk</span></div><img src="images/project-14.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item indoor">
+                            <a class="popup-with-move-anim" href="#project-15"><div class="element-item-overlay"><span>Amazing Art World</span></div><img src="images/project-15.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item indoor">
+                            <a class="popup-with-move-anim" href="#project-16"><div class="element-item-overlay"><span>Observatorium Bosscha</span></div><img src="images/project-16.jpeg" alt="alternative"></a>
+                        </div>
+			<div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-17"><div class="element-item-overlay"><span>Bandung Treetop Adventure</span></div><img src="images/project-17.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-18"><div class="element-item-overlay"><span>Dago Dream Park</span></div><img src="images/project-18.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-19"><div class="element-item-overlay"><span>Danau Situ Lembang</span></div><img src="images/project-19.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-20"><div class="element-item-overlay"><span>Jendela Alam</span></div><img src="images/project-20.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item others">
+                            <a class="popup-with-move-anim" href="#project-21"><div class="element-item-overlay"><span>Grafika Cikole</span></div><img src="images/project-21.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item kafe">
+                            <a class="popup-with-move-anim" href="#project-22"><div class="element-item-overlay"><span>Lereng Anteng Panoramic Coffee</span></div><img src="images/project-22.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-23"><div class="element-item-overlay"><span>Gunung Batu Lembang Sunrise</span></div><img src="images/project-23.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item spool">
+                            <a class="popup-with-move-anim" href="#project-24"><div class="element-item-overlay"><span>Hijab Swimming Pool</span></div><img src="images/project-24.jpg" alt="alternative"></a>
+                        </div>
+                           <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-25"><div class="element-item-overlay"><span>Taman Miniatur Kereta Api</span></div><img src="images/project-25.jpg" alt="alternative"></a>
+                        </div>
+                           <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-26"><div class="element-item-overlay"><span>Maribaya Natural Hot Spring</span></div><img src="images/project-26.jpg" alt="alternative"></a>
+                        </div>
+                           <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-27"><div class="element-item-overlay"><span>Taman Lembah Dewata</span></div><img src="images/project-27.jpg" alt="alternative"></a>
+                        </div>
+                           <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-28"><div class="element-item-overlay"><span>Maribaya Glamping Tent</span></div><img src="images/project-28.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-29"><div class="element-item-overlay"><span>Pine Forest Camp Lembang</span></div><img src="images/project-29.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-30"><div class="element-item-overlay"><span>Geo Culture Trek</span></div><img src="images/project-30.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-31"><div class="element-item-overlay"><span>Kawasan Berkuda Ganesha Eco</span></div><img src="images/project-31.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-32"><div class="element-item-overlay"><span>Bukit Labirin Ganesha Eco</span></div><img src="images/project-32.jpg"></a>
+                        </div>
+			<div class="element-item others">
+                            <a class="popup-with-move-anim" href="#project-52"><div class="element-item-overlay"><span>NuArt Sculpture Park</span></div><img src="images/project-52.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-53"><div class="element-item-overlay"><span>Taman Bunga Cihideung</span></div><img src="images/project-53.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item kafe">
+                            <a class="popup-with-move-anim" href="#project-54"><div class="element-item-overlay"><span>Tafso Barn</span></div><img src="images/project-54.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-55"><div class="element-item-overlay"><span>Desa Wisata Kampung Pasir Angling</span></div><img src="images/project-55.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item indoor">
+                            <a class="popup-with-move-anim" href="#project-56"><div class="element-item-overlay"><span>Rumah Halloween Bandung </span></div><img src="images/project-56.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-57"><div class="element-item-overlay"><span>Kampung Jepang Kyoto (Kyotoku)</span></div><img src="images/project-57.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-58"><div class="element-item-overlay"><span>Rainbow Garden</span></div><img src="images/project-58.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item indoor">
+                            <a class="popup-with-move-anim" href="#project-59"><div class="element-item-overlay"><span>Kota Mini </span></div><img src="images/project-59.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-60"><div class="element-item-overlay"><span>Villa Air Natural Resort</span></div><img src="images/project-60.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-61"><div class="element-item-overlay"><span>Orchid Forest</span></div><img src="images/project-61.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-62"><div class="element-item-overlay"><span>Lactasari Mini Farm</span></div><img src="images/project-62.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-63"><div class="element-item-overlay"><span>Kebun Teh Sukawana</span></div><img src="images/project-63.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-64"><div class="element-item-overlay"><span>Puncak Eurad</span></div><img src="images/project-64.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-65"><div class="element-item-overlay"><span>Bukit Gantole Cililin</span></div><img src="images/project-65.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-66"><div class="element-item-overlay"><span>Taman Kupu-Kupu Cihanjuang</span></div><img src="images/project-66.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-67"><div class="element-item-overlay"><span>Curug Malela</span></div><img src="images/project-67.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-68"><div class="element-item-overlay"><span>Taman Hutan Raya</span></div><img src="images/project-68.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-69"><div class="element-item-overlay"><span>Talaga Cikahuripan</span></div><img src="images/project-69.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-70"><div class="element-item-overlay"><span>Benteng Pasir Apis</span></div><img src="images/project-70.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-71"><div class="element-item-overlay"><span>Tebing Keraton</span></div><img src="images/project-71.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item indoor">
+                            <a class="popup-with-move-anim" href="#project-72"><div class="element-item-overlay"><span>Puspa IPTEK Sundial</span></div><img src="images/project-72.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-73"><div class="element-item-overlay"><span>Sanghyang Heuluet</span></div><img src="images/project-73.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-74"><div class="element-item-overlay"><span>Glamping Lakeside</span></div><img src="images/project-74.jpg" alt="alternative"></a>
+                        </div> 
+                        <div class="element-item nature">
+                            <a class="popup-with-move-anim" href="#project-75"><div class="element-item-overlay"><span>Curug Cimahi</span></div><img src="images/project-75.jpg" alt="alternative"></a>
+                        </div>
+                    </div> <!-- end of grid -->
+                    <!-- end of filter -->
+                    
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+		</div> <!-- end of container -->
+    </div> <!-- end of filter -->
+    <!-- end of projects -->
+		    
+    <!-- Team -->
+    <div class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Our Team - QUINQUE</h2>
+                    <p class="p-heading">We're only as strong and as knowledgeable as our team.</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/team-1.jpeg" alt="alternative">
+                        </div> <!-- end of image-wrapper -->
+                        <p class="p-large">Dhiya Fakhar Nafi</p>
+                        <p class="job-title">Leader - 201524002</p>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/team-2.jpeg" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">Difa Moch Fadillah</p>
+                        <p class="job-title">Programmer I - 201524003</p>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/team-3.jpeg" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">M. Aziz Taufiqurrahman</p>
+                        <p class="job-title">Analyst - 201524014</p>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/team-4.jpeg" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">M. Faza Hardiansyah</p>
+                        <p class="job-title">historyer - 201524016</p>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of team -->
+
+    <!-- Contact -->
+    <div id="contact" class="form-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <div class="section-title">CONTACT US</div>
+                        <p><a href="https://www.instagram.com/radiayadotcom/">Leader</a></p>
+			<p><a href="https://www.instagram.com/fazamuhammadh/">Designer</a></p>
+			<p><a href="https://www.instagram.com/aziztaufiqurrahman/">Programmer 1</a></p>
+			<p><a href="https://www.instagram.com/difapakef/">Programmer 2</a></p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-2 -->
+    <!-- end of contact -->
 
     <!-- Copyright -->
     <div class="copyright">
