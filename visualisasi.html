@@ -189,5 +189,55 @@
       chart.draw(data, google.charts.Line.convertOptions(options));
     }
   </script>
+<script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+['Effort', 'Amount given'],
+['KABUPATEN BOGOR', 2696467],
+['KABUPATEN SUKABUMI', 164233], 
+['KABUPATEN CIANJUR', 4484187], 
+['KABUPATEN BANDUNG', 2490261], 
+['KABUPATEN GARUT', 2851809],
+['KABUPATEN TASIKMALAYA', 1449314],
+['KABUPATEN CIAMIS', 697817],
+['KABUPATEN KUNINGAN', 358911],
+['KABUPATEN CIREBON', 260357],
+['KABUPATEN MAJALENGKA', 701335],
+['KABUPATEN SUMEDANG', 175945],
+['KABUPATEN INDRAMAYU', 1430072],
+['KABUPATEN SUBANG', 1080895],
+['KABUPATEN PURWAKARTA', 2081294],
+['KABUPATEN KARAWANG', 9453886],
+['KABUPATEN BEKASI', 11682],
+['KABUPATEN BANDUNG BARAT', 5440158],
+['KABUPATEN PANGANDARAN', 3227296],
+['KOTA BOGOR', 3956432],
+['KOTA SUKABUMI', 0    ],
+['KOTA BANDUNG', 2442250],
+['KOTA CIREBON', 997370],
+['KOTA BEKASI', 15],
+['KOTA DEPOK', 1275],
+['KOTA CIMAHI', 15875],
+['KOTA TASIKMALAYA', 695678],
+['KOTA BANJAR ', 107260],
+        ]);
+
+        var options = {
+          pieHole: 0.5,
+          pieSliceTextStyle: {
+            color: 'black',
+          },
+          legend: 'none'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donut_single'));
+        chart.draw(data, options);
+      }
+  </script>
+
 </body>
 </html>
